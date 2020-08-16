@@ -31,5 +31,5 @@ pip install -r requirements.txt
 
 ```
 from keras.models import load_model
-model = load_model(os.path.join(cache_dir, "rnn_model.h5"))
+model = load_model(os.path.join(os.path.join("cache", "sentiment_analysis"), "rnn_model.h5"))
 ```
