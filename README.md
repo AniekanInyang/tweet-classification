@@ -15,16 +15,21 @@ Hyperparameters were tuned using GridSearchCV model selection and GradientBoosti
 ### To run the model
 - Clone the repo
 
-```git clone https://github.com/AniekanInyang/tweet-classification ```
+```
+git clone https://github.com/AniekanInyang/tweet-classification
+```
 
 
 - Install packages
 
-```pip install -r requirements.txt ```
+```
+pip install -r requirements.txt
+```
 
 
 - Load the model
 
-```from keras.models import load_model
+```
+from keras.models import load_model
 model = load_model(os.path.join(cache_dir, "rnn_model.h5"))
 ```
