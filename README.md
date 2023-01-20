@@ -33,3 +33,5 @@ pip install -r requirements.txt
 from keras.models import load_model
 model = load_model(os.path.join(os.path.join("cache", "sentiment_analysis"), "rnn_model.h5"))
 ```
+
+I wrote about the work I did for this project in [Part I](https://aniekan.blog/2020/09/07/how-to-use-nlp-to-classify-tweets/) and [Part II](https://aniekan.blog/2020/09/08/how-to-use-nlp-to-classify-tweets-part-ii/) on my blog.
